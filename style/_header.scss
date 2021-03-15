@@ -1,0 +1,38 @@
+header {
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%;
+    border-bottom: 5px solid $color-secundario;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+    img {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid $color-secundario;
+    }
+    
+    li {
+        list-style: none;
+        color:$color-primario ;
+        
+        &:hover {
+            color: $color-secundario;
+            
+        }
+    }
+
+
+}
+        

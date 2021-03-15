@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%;
+    color:$color-secundario;
+    border-top: 5px solid $color-secundario;
+    height: 7rem;
+     p {
+        margin-left: 0.5rem;
+     }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;  
+        }
+    }
+
